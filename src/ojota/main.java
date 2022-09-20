@@ -16,7 +16,7 @@ public class main {
 		impares.stream().forEach(n->System.out.print(n + "\n"));
 		
 		List<String> nombres= practica.nombresQueContengan("a");
-		
+		practica.cosa(nombres);
 		nombres.stream().forEach(n->System.out.print(n + "\n"));
 		interfaceProducto a  = new producto();
 		interfaceProducto b  = new producto();
